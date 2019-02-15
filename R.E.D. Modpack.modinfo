@@ -14,18 +14,17 @@
         <Text id="LOC_RED_MODPACK_DESC">
             <en_US>Units rescaling and formations.</en_US>
         </Text>        
-    </LocalizedText> 	
-
+    </LocalizedText>
+	<InGameActions>
+        <UpdateArt id="REDModpack">
+           	<Properties>
+				<LoadOrder>999999</LoadOrder>
+           	</Properties>
+            <File>REDModpack.dep</File>
+        </UpdateArt>
+	</InGameActions>
     <Files>
         <File>REDModpack.dep</File>
     </Files>
- 
-    <Components>
-        <ModArt id="REDModpack">
-            <Items>
-                <File>REDModpack.dep</File>
-            </Items>
-        </ModArt>
-    </Components>
 
 </Mod>
